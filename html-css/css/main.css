@@ -1,0 +1,32 @@
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0;
+    gap: 24px;
+}
+
+.sobre-nos span {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    width: 78px;
+    height: 24px;
+}
+
+.sobre-nos h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--title-color);
+    height: 60px;
+    width: 652px;
+}
+
+.sobre-nos p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 791px;
+    text-align: center;
+    color: var(--text-color);
+    line-height: 30px;
+}
