@@ -30,3 +30,35 @@
     color: var(--text-color);
     line-height: 30px;
 }
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+
+.info-metricas {
+    width: 280px;
+}
+.info-metricas h3 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--main-color);
+    /* width: 280px; */
+    margin-bottom: 12px;
+}
+
+.info-metricas span {
+    font-size: 18px;
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.info-metricas p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 8px;
+    line-height: 24px;
+}
