@@ -105,3 +105,49 @@
     width: 90%;
     margin: 64px 0;
 }
+
+.container-designer, .container-desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    gap:24px; 
+}
+
+.container-designer {
+    margin-bottom: 64px;
+
+}
+
+.container-desenvolvimento {
+    margin-bottom: 96px;
+}
+
+.container-designer h4, .container-desenvolvimento h4 {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.container-especificacoes {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 24px;
+    font-weight: 500;
+    gap: 24px;
+}
+
+.container-especificacoes span {
+    color: var(--title-color);
+    font-size: 18px;
+}
+
+.hora-salario {
+    display: flex;
+    flex-direction: row; /*default*/
+    gap: 24px;
+    color: var(--text-color);
+    font-size: 16px;
+}
