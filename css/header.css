@@ -65,3 +65,7 @@ nav a {
 #btn-cadastrar:hover {
     cursor: pointer;
 }
+
+.btn-contato:hover {
+    cursor: pointer;
+}
